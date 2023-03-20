@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useState, useRef } from "react";
+import React, { useEffect, useMemo, useState, useRef } from 'react';
 
-import { container, svgContainer, valueContainer } from "./styles";
+import { container, svgContainer, valueContainer } from './styles';
 import {
   IColorInterval,
   IPercentageCircle,
   IPercentageCircleStyle,
-} from "./types";
+} from './types';
 
 export const PercentageCircle = ({
   size,
@@ -68,13 +68,13 @@ export const PercentageCircle = ({
   }, [circleReference, internalPercentage]);
 
   const renderCircle = (
-    primaryCircle: boolean = false,
-    newValue: string = "0",
-    colorParams: string = secondaryColor!,
-    zIndex: number = 1
+    primaryCircle = false,
+    newValue = '0',
+    colorParams = secondaryColor!,
+    zIndex = 1
   ) => (
     <circle
-      data-testid={primaryCircle ? "primary-circle" : "secondary-circle"}
+      data-testid={primaryCircle ? 'primary-circle' : 'secondary-circle'}
       aria-valuenow={primaryCircle ? internalPercentage : 100}
       cx={size}
       cy={size}
@@ -82,7 +82,7 @@ export const PercentageCircle = ({
       fill="none"
       strokeWidth={thickness}
       style={{
-        stroke: "currentcolor",
+        stroke: 'currentcolor',
         strokeDasharray: circleStyle.strokeDasharray,
         strokeDashoffset: newValue,
         strokeLinecap,
@@ -135,14 +135,14 @@ export const PercentageCircle = ({
         ...container,
         width: size,
         height: size,
-        cursor: cursor ?? "",
+        cursor: cursor ?? '',
       }}
     >
       <div style={svgContainer}>
         <svg
           data-testid="svg"
           viewBox={svgViewbox}
-          style={{ overflow: "visible" }}
+          style={{ overflow: 'visible' }}
         >
           {renderCircle()}
           {renderCircle(true, circleStyle.strokeDashoffset, activeColor, 2)}
@@ -162,9 +162,9 @@ const defaultProps: IPercentageCircle = {
   thickness: 10,
   percentage: 0,
   contentToDisplay: (percentage) => `${percentage}%`,
-  primaryColor: "rgb(123, 104, 238)",
-  secondaryColor: "rgb(237, 241, 239)",
-  strokeLinecap: "round",
+  primaryColor: 'rgb(123, 104, 238)',
+  secondaryColor: 'rgb(237, 241, 239)',
+  strokeLinecap: 'round',
   primaryShadowFilter: (color: string) => `drop-shadow(0 0 2px ${color})`,
   useAutomaticIcrement: false,
   automaticIcrementDelayMs: 10,

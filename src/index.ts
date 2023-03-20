@@ -1,2 +1,2 @@
-export type { IPercentageCircle, IColorInterval } from "./types";
-export { PercentageCircle } from "./PercentageCircle";
+export type { IPercentageCircle, IColorInterval } from './types';
+export { PercentageCircle } from './PercentageCircle';

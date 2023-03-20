@@ -7,8 +7,8 @@
 Simple and easy to get started, free of dependencies.
 
 ```js
-import React from "react";
-import { PercentageCircle } from "react-best-percentage-circle";
+import React from 'react';
+import { PercentageCircle } from 'react-best-percentage-circle';
 
 const App = () => <PercentageCircle percentage={50} />;
 
@@ -22,3 +22,5 @@ Click [here](https://lucas-fernando.vercel.app/react-best-percentage-circle) to 
 ### Info
 
 This package supports typescript.
+
+[![npm version](https://badge.fury.io/js/react-best-percentage-circle.svg)](https://badge.fury.io/js/react-best-percentage-circle)

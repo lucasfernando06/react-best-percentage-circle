@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 export interface IColorInterval {
-  isActive: (percentage: number) => {};
+  isActive: (percentage: number) => boolean;
   color: string;
 }
 

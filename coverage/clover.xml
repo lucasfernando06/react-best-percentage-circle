@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679276214423" clover="3.2.0">
-  <project timestamp="1679276214424" name="All files">
+<coverage generated="1679314798053" clover="3.2.0">
+  <project timestamp="1679314798053" name="All files">
     <metrics statements="190" coveredstatements="190" conditionals="50" coveredconditionals="50" methods="11" coveredmethods="11" elements="251" coveredelements="251" complexity="0" loc="190" ncloc="190" packages="1" files="2" classes="2"/>
     <file name="PercentageCircle.tsx" path="C:\Users\lucas\OneDrive\Documentos\react-percentage-circle\src\PercentageCircle.tsx">
       <metrics statements="173" coveredstatements="173" conditionals="47" coveredconditionals="47" methods="8" coveredmethods="8"/>

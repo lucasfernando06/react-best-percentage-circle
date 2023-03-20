@@ -22,7 +22,7 @@
     "paths": {
       "react-best-percentage-circle": ["src/index.ts"]
     },
-    "typeRoots": ["node_modules/@types", "src/component/index.d.ts"]
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["src", "./setupTest.ts", "vite.config.ts", "package.json"],
   "exclude": ["node_modules", "coverage"]
