@@ -25,3 +25,4 @@ This package supports typescript.
 
 [![npm version](https://badge.fury.io/js/react-best-percentage-circle.svg)](https://badge.fury.io/js/react-best-percentage-circle)
 ![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/lucasfernando06/34f66a60481cd4295b4b63720863d5bc/raw/react-best-percentage-circle__heads_main.json)
+![Typescript](https://img.shields.io/badge/Typescript-true-blue)
