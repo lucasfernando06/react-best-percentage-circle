@@ -1,0 +1,61 @@
+{
+  "name": "react-best-percentage-circle",
+  "description": "Create beautiful and customizable percentage circles.",
+  "author": "Lucas Fernando",
+  "private": false,
+  "keywords": [
+    "react",
+    "react js",
+    "percentage",
+    "circle",
+    "beautiful",
+    "customizable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasfernando06/react-best-percentage-circle"
+  },
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/react-best-percentage-circle.es.js",
+      "require": "./dist/react-best-percentage-circle.umd.js"
+    }
+  },
+  "main": "./dist/react-best-percentage-circle.umd.js",
+  "module": "./dist/react-best-percentage-circle.es.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:watch": "tsc && vite build --watch",
+    "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.3",
+    "jsdom": "^21.1.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.1.0",
+    "vitest": "^0.29.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
