@@ -68,7 +68,7 @@ jobs:
         uses: schneegans/dynamic-badges-action@v1.0.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
-          gistID: a6028b603fcf63561fea47d4cb1df3b2
+          gistID: 34f66a60481cd4295b4b63720863d5bc
           filename: react-best-percentage-circle__${{ env.BRANCH }}.json
           label: coverage
           message: ${{ env.COVERAGE }}
