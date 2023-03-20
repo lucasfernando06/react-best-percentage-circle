@@ -24,4 +24,4 @@ Click [here](https://lucas-fernando.vercel.app/react-best-percentage-circle) to 
 This package supports typescript.
 
 [![npm version](https://badge.fury.io/js/react-best-percentage-circle.svg)](https://badge.fury.io/js/react-best-percentage-circle)
-[![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/lucasfernando06/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/raw/react-best-percentage-circle__heads_main.json)]
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/lucasfernando06/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/raw/react-best-percentage-circle__heads_main.json)
